@@ -4,11 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
     <title>New Contact Form</title>
 </head>
 <h1>Add New Contact</h1>
 
-<body style="background-color: rgb(216, 213, 213); ;">
+<body>
+    <style>
+        body {
+            background-color: rgb(216, 213, 213);
+        }
+    </style>
     <form>
         <label for="firstname"><b>Firstname<b></b>:</label>
         <input type="text" id="firstname" name="firstname"><br><br>
@@ -28,27 +34,14 @@
         <label for="position"><b>Position</b>:</label>
         <input type="text" id="position" name="position"><br><br>
 
-        <input type="radio" name="gender"> Male
-        <input type="radio" name="gender"> Female<br><br>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female<br><br>
+
 
         <button type="submit">Submit</button>
     </form>
 
 
-    <table>
-        <th>
-            <h2>Contact List</h2>
-
-
-            <tr>
-                <th>Firstname</th>
-                <th>Lastname</th>
-                <th>Email</th>
-                <th>Department</th>
-                <th>Phone Number</th>
-                <th>Position</th>
-        </th>
-    </table>
 </body>
 
 </html>
