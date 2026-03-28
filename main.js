@@ -1,16 +1,21 @@
-function monitorTraffic(cityBlock) {
-	const vehicleCount = [12, 5, 30, 8, 15];
-	console.log("Starting Traffic Report for: " + cityBlock);
-
-	for (let i = 0; i < vehicleCount.length; i++) {
-		letcount = vehicleCount[i];
-		if (count > 20) {
-			console.log("Heavy traffic at sensor " + i + ": " + count + " cars");
-		} else {
-			console.log("Light traffic at sensor " + i + ": " + count + " cars");
-		}
-	}
-	return "Analysis Complete";
+function viewDetails() {
+	// Implementation for viewing contact details
+	alert("View contact details here.");
 }
 
-monitorTraffic("Kabarak Main Gate");
+function editContact() {
+	// Implementation for editing contact
+	alert("Edit contact here.");
+}
+
+function deleteContact() {
+	// Implementation for deleting contact
+	let deleteConfirmation = confirm(
+		"Are you sure you want to delete this contact?",
+	);
+	if (deleteConfirmation) {
+		alert("Contact deleted.");
+	} else {
+		alert("Deletion cancelled.");
+	}
+}
